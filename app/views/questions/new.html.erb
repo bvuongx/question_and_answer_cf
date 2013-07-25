@@ -1,10 +1,3 @@
 <h2>New Question</h2>
 
-<%= form_for(@question) do |f| %>
-  <p>
-    <%= f.label :inquiry %><br />
-    <%= f.text_field :inquiry %>
-  </p>
-
-  <%= f.submit %>
-<% end %>
+<%= render "form" %>

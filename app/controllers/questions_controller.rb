@@ -14,7 +14,8 @@ class QuestionsController < ApplicationController
       flash[:notice] = "Question has been posted."
       redirect_to @question
     else
-      # TBD
+      flash[:alert] = "Question has not been posted."
+      render :action => "new"
     end
   end
 
