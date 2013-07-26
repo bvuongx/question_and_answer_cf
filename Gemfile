@@ -30,6 +30,7 @@ end
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'devise', '2.1.0'
 end
 
 
